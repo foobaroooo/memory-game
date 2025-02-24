@@ -1,0 +1,29 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    background-color: #4a148c;
+    padding: 10px;
+}
+
+.board img {
+    width:100px;
+    height:100px;
+    display: none;    
+}
+
+.board img.show {
+    display: block;
+}
+
+.memory-game header,
+.memory-game main {
+    display: flex;
+    justify-content: center
+}
+
+.imgPlaceholder {
+    width:100px;
+    height:100px;
+    background-color: #5a5a5a;
+}
